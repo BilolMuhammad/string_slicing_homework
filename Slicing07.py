@@ -7,7 +7,7 @@ def main(s, n):
     Returns:
         str: answer
     """
-    return s[n:]
+    return s[:-n]
 
 
 print(main('sarvarjon', 3))
